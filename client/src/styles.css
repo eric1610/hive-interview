@@ -1,0 +1,42 @@
+.dropdown-container {
+  display: grid;
+  max-width: 250px;
+  margin: 20px;
+}
+
+.dropdown-options {
+  max-height: 100px;
+  overflow-y: auto;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-options-item {
+  padding-left: 10px;
+}
+.dropdown-options-item.selected {
+  background-color: aquamarine;
+}
+
+.dropdown-options-item:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.display-options {
+  display: grid;
+  position: relative;
+}
+
+.display-image {
+  position: absolute;
+  top: 24px;
+  left: 230px;
+  height: 13px;
+  width: 13px;
+}
+
+.item-pointer {
+  cursor: pointer;
+}
